@@ -10,7 +10,7 @@ import time
 # --- Configuration ---
 VENV_NAME = "venv"
 REQUIREMENTS_FILE = "requirements.txt"
-APP_FILE = "core/app.py"
+APP_FILE = "app.py"
 
 
 # --- End Configuration ---

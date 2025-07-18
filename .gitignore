@@ -1,0 +1,34 @@
+# IDE settings
+.idea/
+
+# Python cache
+__pycache__/
+*/__pycache__/
+
+# Virtual environment
+venv/
+
+# Data directory (if storing output, temp files, etc.)
+data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Bytecode and compiled files
+*.py[cod]
+*$py.class
+
+# Requirements (if it's generated or maintained separately)
+requirements.txt
+
+# Environments
+.env
+.env.*
+
+# PyInstaller or similar build artifacts
+dist/
+build/

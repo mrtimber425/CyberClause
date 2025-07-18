@@ -5,6 +5,8 @@ import time
 from datetime import datetime
 import os
 import json
+import sys
+import io
 
 # Import our custom modules
 from config import Config
@@ -39,6 +41,8 @@ class BasicAPIStatusManager:
 
 app = Flask(__name__)
 app.config.from_object(Config)
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 # Initialize components
 print("Initializing CyberClause Dashboard - 6-Tab Mode...")
